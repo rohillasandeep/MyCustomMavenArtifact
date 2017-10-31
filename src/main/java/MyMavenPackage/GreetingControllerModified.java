@@ -16,3 +16,4 @@ public class GreetingControllerModified {
 	        return new Greeting(counter.incrementAndGet(),
 	                            String.format(template, name));
 	    }
+}
