@@ -19,7 +19,7 @@ public class GreetingControllerModified {
 			if(myadd!=null)
 			{
 				System.out.println(name+" : "+myadd.getHostName());
-				name += "This request is served by " + myadd.toString();
+				//name += "This request is served by " + myadd.toString();
 			}
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
