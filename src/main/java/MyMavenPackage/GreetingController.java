@@ -14,6 +14,6 @@ public class GreetingController {
     @RequestMapping("/greeting")
     public Greeting greeting() {
         return new Greeting(counter.incrementAndGet(),
-                            String.format(template, "Containers !!!"));
+                            String.format(template, "World !!!"));
     }
 }
